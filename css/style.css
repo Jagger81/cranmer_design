@@ -1079,6 +1079,10 @@ footer .copyright {
   margin-bottom: .3rem;
 }
 
+footer .copyright-box {
+  font-size: 0.7em;
+}
+
 footer .credits {
   margin-bottom: 0;
 }
