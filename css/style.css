@@ -1250,7 +1250,7 @@ footer .credits a {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   .testimonial-box .description {
     padding: 0 8rem;
   }
@@ -1268,13 +1268,13 @@ footer .credits a {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
   .back-to-top {
     bottom: 15px;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
   #navbar_icon_left {
     color: black;
   }
