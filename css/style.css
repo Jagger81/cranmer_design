@@ -1203,7 +1203,7 @@ footer .credits a {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 360px) {
   .box-shadow-full {
     padding: 3rem;
   }
@@ -1250,13 +1250,13 @@ footer .credits a {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 360px) {
   .testimonial-box .description {
     padding: 0 8rem;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 360px) {
   .testimonial-box .description {
     padding: 0 13rem;
   }
@@ -1268,13 +1268,13 @@ footer .credits a {
   }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1024px) {
   .back-to-top {
     bottom: 15px;
   }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1024px) {
   #navbar_icon_left {
     color: black;
   }
