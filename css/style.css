@@ -1279,3 +1279,11 @@ footer .credits a {
     color: black;
   }
 }
+
+.image-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 17%;
+    height: 17%;
+}
