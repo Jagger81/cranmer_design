@@ -1284,6 +1284,102 @@ footer .credits a {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 10%;
+    height: 10%;
+}
+
+@media (max-width: 768px) {
+  .image-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 17%;
     height: 17%;
+  }
+}
+
+.image-center-option1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image-center-option2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: 90%;
+}
+
+.image-center-wix {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: 60%;
+}
+
+@media (max-width: 768px) {
+.image-center-wix {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
+}
+}
+
+.image-center-weebly {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: 40%;
+}
+
+@media (max-width: 768px) {
+.image-center-weebly {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
+}
+}
+
+.image-center-sqspace {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: 40%;
+}
+
+@media (max-width: 768px) {
+.image-center-sqspace {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  height: 30%;
+}
+}
+
+.image-center-collab {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 27%;
+  height: 27%;
+}
+
+@media (max-width: 768px) {
+.image-center-collab {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  height: 30%;
+}
 }
