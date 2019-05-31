@@ -1383,3 +1383,7 @@ footer .credits a {
   height: 30%;
 }
 }
+
+#payment_options {
+  background-color: rgb(87, 174, 165);
+}
