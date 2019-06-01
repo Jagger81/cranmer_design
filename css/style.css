@@ -1466,3 +1466,13 @@ footer .credits a {
       height: 50%;
     }
     }
+
+    iframe {
+      padding: 50px;
+    }
+
+    @media (max-width: 768px) {
+      iframe {
+        padding: 15px;
+      }
+    }
