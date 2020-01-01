@@ -940,30 +940,58 @@
                       <!--<div id="sendmessage">Your message has been sent. Thank you!</div>
                       <div id="errormessage">Error!</div>-->
                       <div class="row">
+
+                          <div class="col-md-12 mb-3">
+                              <li class="form-group">
+                                  <select name="how" class="form_input" name="how" id="how" placeholder="How Did You Hear About Us?">
+                                      <option selected="selected" disabled="disabled">How Did You Hear About Us?</option>
+                                      <option value="Google Search">Google Search</option>
+                                      <option value="Google Business">Google Business</option>
+                                      <option value="From A Friend">From A Friend</option>
+                                      <option value="Facebook">Facebook</option>
+                                      <option value="LinkedIn">LinkedIn</option>
+                                    </select>
+                                  <div class="validation"></div>
+                                </li>
+                            <div class="validation"></div>
+                          </div>
+
                         <div class="col-md-12 mb-3">
                           <div class="form-group">
                             <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                             <div class="validation"></div>
                           </div>
                         </div>
+
                         <div class="col-md-12 mb-3">
                           <div class="form-group">
                             <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
                             <div class="validation"></div>
                           </div>
                         </div>
+                        
+                        <div class="col-md-12 mb-3">
+                        <div class="form-group">
+                          <input type="text" class="form-control" name="phone" id="phone" placeholder="Your Phone Number" data-rule="minlen:7" data-msg="Please enter a valid phone number" />
+                          <div class="validation"></div>
+                        </div>
+                        </div>
+
+
                         <div class="col-md-12 mb-3">
                             <div class="form-group">
                               <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
                               <div class="validation"></div>
                             </div>
                         </div>
+
                         <div class="col-md-12 mb-3">
                           <div class="form-group">
                             <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
                             <div class="validation"></div>
                           </div>
                         </div>
+
                         <div class="col-md-12">
                           <button type="submit" class="button button-a button-big button-rouded" value="Send">Send Message</button>
                         </div>
