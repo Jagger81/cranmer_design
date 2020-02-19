@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cranmerwebdesign.ie/sitemap.xml
