@@ -1089,7 +1089,8 @@
                         </div>
                        
 
-                        <div class="col-md-12 mb-3"><div class="g-recaptcha" id="recaptcha" data-sitekey="6Le1z9QZAAAAABlhXcJyjXW_zLl8jNQfTvQcBuLB" data-callback="verifyCaptcha"></div><br><div id="g-recaptcha-error"></div><br>
+                        <div class="col-md-12 mb-3"><div class="g-recaptcha" id="recaptcha" data-sitekey="6Le1z9QZAAAAABlhXcJyjXW_zLl8jNQfTvQcBuLB" data-callback="verifyCaptcha"></div>
+                        <br><div id="g-recaptcha-error"></div><br>
                           <button type="submit" class="button button-a button-big button-rouded" value="Send">Send Message</button>
                         </div>
 
@@ -1098,7 +1099,7 @@
                           function submitUserForm() {
                               var response = grecaptcha.getResponse();
                               if(response.length == 0) {
-                                  document.getElementById('g-recaptcha-error').innerHTML = '<span style="color:red;">This field is required.</span>';
+                                  document.getElementById('g-recaptcha-error').innerHTML = '<span style="color:green;">Please Verify You Are Not A Robot.</span>';
                                   return false;
                               }
                               return true;

@@ -114,4 +114,20 @@
 		}
 	});
 
+	var recaptchaCallback = function () {
+    $('.g-recaptcha').each(function() {
+                var rc = grecaptcha.render(this, {
+          'sitekey' : ..,
+          'theme': ..,
+          'callback': ..
+                });
+
+               $(this).find('iframe:first')
+               .removeAttr('width')
+               .addClass('img-responsive')
+               .parent()
+               .css('width', 'auto');
+        });
+		};
+
 })(jQuery);
