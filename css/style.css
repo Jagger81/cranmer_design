@@ -1472,12 +1472,20 @@ footer .credits a {
     }
 
     iframe {
+      padding: 5px;
+    }
+
+    #video_frame {
       padding: 50px;
     }
 
     @media (max-width: 768px) {
       iframe {
-        padding: 15px;
+        padding: 5px;
+      }
+
+      #video_frame {
+        padding: 50px;
       }
     }
     
