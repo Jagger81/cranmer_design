@@ -1506,4 +1506,10 @@ footer .credits a {
       padding: 0px;
     }
 
-    
+    .gc-reset{
+      transform:scale(0.95) !important;
+      -webkit-transform:scale(0.95) !important;
+      transform-origin:0 0 !important;
+      -webkit-transform-origin:0 0 !important;
+      }
+
