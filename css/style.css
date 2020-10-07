@@ -1500,3 +1500,8 @@ footer .credits a {
     #how li{
       color:white;
     }
+
+    #recaptcha iframe{
+      width: 100%;
+      padding: 0px;
+    }
