@@ -1506,7 +1506,8 @@ footer .credits a {
       padding: 0px;
     }
 
-    .gc-reset{
+    #rc-imageselect{
+      border: lightcoral;
       transform:scale(0.95) !important;
       -webkit-transform:scale(0.95) !important;
       transform-origin:0 0 !important;
