@@ -1506,11 +1506,8 @@ footer .credits a {
       padding: 0px;
     }
 
-    #rc-imageselect{
-      border: lightcoral;
-      transform:scale(0.95) !important;
-      -webkit-transform:scale(0.95) !important;
-      transform-origin:0 0 !important;
-      -webkit-transform-origin:0 0 !important;
+    #rc-imageselect iframe{
+      background-color: lightcoral;
+      padding: 5px;
       }
 
