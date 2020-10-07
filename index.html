@@ -1032,7 +1032,7 @@
                     </h5>
                   </div>
                   <div>
-                      <form action="https://formcarry.com/s/SfLo5bRcGLz" method="POST" accept-charset="UTF-8">
+                      <form action="https://formcarry.com/s/SfLo5bRcGLz" method="POST" accept-charset="UTF-8" onsubmit="return submitUserForm();">
                       <!--<div id="sendmessage">Your message has been sent. Thank you!</div>
                       <div id="errormessage">Error!</div>-->
                       <div class="row">
@@ -1089,9 +1089,26 @@
                         </div>
                        
 
-                        <div class="col-md-12 mb-3"><div class="g-recaptcha" id="recaptcha" data-sitekey="6Le1z9QZAAAAABlhXcJyjXW_zLl8jNQfTvQcBuLB" required></div><br><br>
+                        <div class="col-md-12 mb-3"><div class="g-recaptcha" id="recaptcha" data-sitekey="6Le1z9QZAAAAABlhXcJyjXW_zLl8jNQfTvQcBuLB" required></div><br><div id="g-recaptcha-error"></div><br>
                           <button type="submit" class="button button-a button-big button-rouded" value="Send">Send Message</button>
                         </div>
+
+                        <!--Validation script added for reCaptcha-->
+                        <script>  
+                          function submitUserForm() {
+                              var response = grecaptcha.getResponse();
+                              if(response.length == 0) {
+                                  document.getElementById('g-recaptcha-error').innerHTML = '<span style="color:red;">This field is required.</span>';
+                                  return false;
+                              }
+                              return true;
+                          }
+                           
+                          function verifyCaptcha() {
+                              document.getElementById('g-recaptcha-error').innerHTML = '';
+                          }
+                          </script>
+                          <!--Validation script end-->
 
                       </div>
                     </form>
